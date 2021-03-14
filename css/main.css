@@ -210,13 +210,13 @@ a {
   text-decoration: none;
 }
 
-#p1, #p5 {
+.p-left {
   width: 95%;
   align-items: center;
   padding: 10px;
 }
 
-#p2, #p6 {
+.p-right {
   padding: 0px 0px 30px 0px;
   padding: 0em 0em 1.875em 0px;
  }
