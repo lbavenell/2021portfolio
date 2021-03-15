@@ -10,6 +10,7 @@ html, body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   color: #001e29;
+  
 }
 
 h1 {
@@ -74,6 +75,7 @@ ul, li {
   justify-content: center;
   align-items: center;
   z-index: 10;
+  
 }
 
 .content {
@@ -184,13 +186,13 @@ label {
   color: white;
   background-color:#001e29;
   opacity: 98%;
-  border-radius: 35px;
-  border-radius: 2.188em;
+  
   margin: 32px;
   margin: 2em;
   padding: 0px 0px 30px 0px;
   padding: 0em 0em 1.875em 0em;
   width: 67%;
+  
 }
 
 /*--PORTFOLIO--*/
@@ -295,10 +297,16 @@ h1 {
 }
 
 /*-- min 501 portfolio --*/
+.box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: white;
+  margin: 15px;
+}
 
-.portfolio {
+.p-content {
   width: 95%;
   justify-content: center;
+  
 }
 
 ul, li {
@@ -312,6 +320,13 @@ ul, li {
   justify-content: space-around;
   width: 95%;
 }
+
+/*-- min 501 footer --*/
+
+footer h4 {
+  margin-top: 10px;
+}
+
 
 }/*-- media query min 501 tablet ends --*/
 
@@ -353,7 +368,7 @@ header#home .hero {
 
 /*-- min 768 portfolio --*/
 
-.portfolio {
+.p-content {
 display: flex;
 flex-flow: row nowrap;
 }
@@ -426,7 +441,7 @@ ul, li {
   font-size: 32px;
 }
 
-.portfolio {
+.p-content {
  width: 75%;
 
 }
