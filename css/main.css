@@ -22,15 +22,15 @@ h1 {
 h2 {
   font-size: 28px;
   font-size: 1.75em;
-  line-height: 16px;
-  line-height: 1em;
+  line-height: 1.75em;
+  line-height: 28px;
 }
 
 h3 {
   font-size: 24px;
   font-size: 1.5em;
-  line-height: .1em;
-  line-height: 1.6px;
+  line-height: 1.25em;
+  line-height: 20px;
 }
 
 h4 {
@@ -74,8 +74,8 @@ ul, li {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  z-index: 10;
   background-color: #e5ffff;
+  z-index: 1;
   
 }
 
@@ -178,21 +178,30 @@ label {
   align-items: center;
   justify-content: center;
 }
- 
+
+#about {
+
+  background-color: #c2562b;
+  color: white;
+}
+
+#focus {
+  width: 90%;
+}
+
+#focus p{
+  text-align: left;
+}
 .rectangles {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
   color: white;
-  background-color: #001e29;
-  opacity: 95%;
-  margin: 32px;
-  margin: 2em;
-  padding: 0px 0px 30px 0px;
-  padding: 0em 0em 1.875em 0em;
-  width: 85%;
   
+  padding: 0px 0px 20px 0px;
+  padding: 0em 0em 1.25em 0em;
+  width: 85%;
 }
 
 /*--PORTFOLIO--*/
@@ -222,6 +231,13 @@ a {
   padding: 0px 0px 30px 0px;
   padding: 0em 0em 1.875em 0px;
  }
+
+ .box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: white;
+  margin: 15px;
+  padding: 10px;
+}
 
 /*--CONTACT--*/
 .contact, #questions {
@@ -297,14 +313,8 @@ h1 {
 }
 
 /*-- min 501 portfolio --*/
-.box-shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background: white;
-  margin: 15px;
-}
 
 .p-content {
-  width: 95%;
   justify-content: center;
   
 }
@@ -339,6 +349,13 @@ ul, li {
   width: 30%;
 }
 
+.box-shadow {
+  margin: 15px;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
 
 /*-- min 501 footer --*/
 
@@ -464,9 +481,5 @@ ul, li {
   font-size: 32px;
 }
 
-.p-content {
- width: 75%;
-
-}
 
 }/*--media query min 1200 ends--*/
