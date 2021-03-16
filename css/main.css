@@ -10,7 +10,6 @@ html, body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   color: #001e29;
-  
 }
 
 h1 {
@@ -180,9 +179,9 @@ label {
 }
 
 #about {
-
   background-color: #c2562b;
   color: white;
+  padding-top: 20px;
 }
 
 #focus {
@@ -407,6 +406,7 @@ section.hero {
   flex-flow: row nowrap;
   justify-content: center;
   width: 95%;
+  
 }
 
 .rectangles {
@@ -459,19 +459,14 @@ ul, li {
 
 @media screen and (min-width: 1200px) {
 
-
-#questions  {
-  width: 20%;
+.box-shadow {
+  width: 95%;
 }
 
-#c1{
-  width: 20%;
+.p-content {
+    display: flex;
+    flex-flow: row nowrap;
 }
-
-#c2 {
-  width: 25%;
-}
-
 
 .fa-linkedin, .fa-github-square, .fa-envelope {
   font-size: 56px;
@@ -482,6 +477,5 @@ ul, li {
 #questions h2 {
   font-size: 32px;
 }
-
 
 }/*--media query min 1200 ends--*/

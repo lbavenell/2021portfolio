@@ -11,85 +11,63 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="javascript" href="/js/main.js">
     <script src="https://kit.fontawesome.com/2629b6f452.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@660&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   </head>
 
   <body>
-
     <div class="flex-container">
       <!-- Navigation -->
       <nav id="myNav">
         <div class="logo content">
-        <a href="#home">
-        <img src="img/lba.png" alt="lba logo"></a>
+          <a href="#home">
+          <img src="img/lba.png" alt="lba logo"></a>
         </div><!--End class logo content-->
     
         <div class="nav">
           <label for="toggle">&#9776;</label>
           <input type="checkbox" id="toggle"/>
-
-         <div class="menu">
+          <div class="menu">
             <a href="#portfolio">Portfolio</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
           </div><!--end class menu-->
-
         </div><!--end class nav-->
-      </nav>
-
+      </nav><!-- end id mynav-->
 
     <!--HEADER-->
-  <header id="home">
-    <section class="hero">
-      
-      <div id="greeting">
-        <h1>Laura B. Avenell</h1>
-        <h2>Front-end Developer</h2>
-      </div><!--end greeting-->
+      <header id="home">
+        <section class="hero">
+           <div id="greeting">
+              <h1>Laura B. Avenell</h1>
+              <h2>Front-end Developer</h2>
+            </div><!--end id greeting-->
+        </section><!--end class hero-->
+      </header><!--end id home-->
 
-    </section><!--end class hero-->
+  <main>
+  <!--PORTFOLIO-->
+    <section id="portfolio">
 
-  </header><!--end id home-->
+      <div class="box-shadow">
+        <div class="p-title">
+           <h2>An example of a mobile-first website, a concept of a small company website.</h2>
+        </div><!--end p-title-->
 
- 
- <main>
+        <div class="p-content">
+          <div class="twocolumn p-left">
+            <div>
+               <img src="img/rogue-pickings-mockup.png" alt="Rogue Pickings Website">
+               <h3>Rogue Pickings Restaurant</h3>
+               <p><a href="https://laurabavenell.com/rogue-pickings/index.html" target="_blank">View Live Site</a></p>
+            </div>
+          </div><!-- end twocolumn p-left -->
 
-
-<!--PORTFOLIO-->
-  <section id="portfolio">
-
-
-    <div class="box-shadow">
-
-      <div class="p-title">
-        <h2>An example of a mobile-first website, a concept of a small company website.</h2>
-      </div><!--end p-title-->
-
-      <div class="p-content">
-
-        <div class="twocolumn">
-
-          <div class="p-left"><img src="img/rogue-pickings-mockup.png" alt="Rogue Pickings Website"></div><!--end p-left-->
-
-          <div class="p-left">
-            <h3>Rogue Pickings Restaurant</h3>
-            <p><a href="https://laurabavenell.com/rogue-pickings/index.html" target="_blank">View Live Site</a></p>
-          </div><!--end p-left-->
-
-        </div><!-- end twocolumn-->
-
-        <div class="twocolumn">
-
-          <div class="p-right">
+          <div class="twocolumn p-right">
             <h3>Key Features</h3>
             <ul>
               <li>Fast loading. One page with optimized images and static menu.</li>
               <li>Unique layout for mobile, tablet, and desktop.</li>
             </ul>
-          </div><!--end p-right-->
-
-          <div class="p-right">
             <h3>Process</h3> 
             <ul>
               <li>Optimized images using Photoshop.</li>
@@ -97,161 +75,126 @@
               <li>Created version control using Git and Github.</li>
             </ul>
             <h4>Images and Design &copy; <a href="https://skillcrush.com/about" target="_blank">Skillcrush.com</a></h4>
-          </div><!--end p-right-->
-
-        </div><!--end twocolumn-->
-      
+          </div><!--end twocolumn p-right-->
+        </div><!-- end p-content-->
       </div><!--end box-shadow-->
-    </div>
 
-  <div class="box-shadow">
-    <div class="p-title">
-      <h2>An example of a static webpage. Quick to build, yet elegant.</h2>
-    </div><!--end id latest-->
+      <div class="box-shadow">
+        <div class="p-title">
+           <h2>An example of a static webpage. Quick to build, yet elegant.</h2>
+        </div><!--end class p-title-->
 
-    <div class="p-content row-reverse">
-      <div class="twocolumn">
-        <div id="p-right"><img src="img/jubilee-austen.png" alt="Jubilee Austen Portfolio">
-        </div><!--end id p1-->
+        <div class="p-content row-reverse">
+          <div class="twocolumn p-right">
+            <div>
+               <img src="img/jubilee-austen.png" alt="Jubilee Austen Portfolio">
+               <h3>Jubilee Austen Portfolio</h3>
+               <p><a href="https://laurabavenell.com/jubilee-austen/index.html" target="_blank">View Live Site</a></p>
+            </div>
+          </div><!--end twocolumn p-right-->
 
-        <div class="p-right">
-          <h3>Jubilee Austen Portfolio</h3>
-          <p><a href="https://laurabavenell.com/jubilee-austen/index.html" target="_blank">View Live Site</a></p>
-        </div><!--end id p2-->
-      </div><!-- end twocolumn-->
+          <div class="twocolumn p-left">
+             <h3>Key Features</h3>
+             <ul>
+                <li>Fast loading. One page with optimized images and static menu.</li>
+                <li>Layout for larger screens.</li>
+             </ul>
+            <h3>Process</h3> 
+            <ul>
+                <li>Optimized images using Photoshop.</li>
+                <li>Coded in Visual Studio Code using HTML5 and CSS3.</li>
+                <li>Created version control using Git and Github.</li>
+            </ul>
+            <h4>Images and Design &copy; <a href="https://skillcrush.com/about" target="_blank">Skillcrush.com</a></h4>
+          </div><!--end twocolumn p-left-->
+        </div><!--end p-content row-reverse-->
+      </div><!--end box-shadow-->
 
-      <div class="twocolumn">
-        <div class="p-left">
-          <h3>Key Features</h3>
-          <ul>
-            <li>Fast loading. One page with optimized images and static menu.</li>
-            <li>Layout for larger screens.</li>
-          </ul>
-        </div><!--end id p3-->
+      <div class="box-shadow">
+         <div class="p-title">
+           <h2>Fun with JavaScript!</h2>
+         </div><!--end id p-title-->
 
-        <div class="p-left">
-          <h3>Process</h3> 
-          <ul>
-            <li>Optimized images using Photoshop.</li>
-            <li>Coded in Visual Studio Code using HTML5 and CSS3.</li>
-            <li>Created version control using Git and Github.</li>
-          </ul>
+        <div class="p-content">
+          <div class="twocolumn p-left">
+            <div>
+              <img src="img/magic8ball.png" alt="Magic 8 Ball JavasScript">
+              <h3>Magic 8 Ball</h3>
+              <p><a href="https://laurabavenell.com/magic8ball/" target="_blank">View Live Site</a></p>
+            </div>
+          </div><!-- end twocolumn p-left--> <!-- end p-content-->
 
-          <h4>Images and Design &copy; <a href="https://skillcrush.com/about" target="_blank">Skillcrush.com</a></h4>
-        </div><!--end id p4-->
-      </div><!--end twocolumn-->
+          <div class="twocolumn p-right">
+            <h3>Key Features</h3>
+            <ul>
+              <li>Interactive game that can be added to an existing webpage or as a stand alone page.</li>
+              <li>Scalable to mobile, tablet, and desktop layouts.</li>
+            </ul>
+            <h3>Process</h3> 
+            <ul>
+              <li>Coded in Visual Studio Code using HTML5, CSS3, JavaScript and jQuery.</li>
+              <li>Created version control using Git and Github.</li>
+            </ul>
+            <h4>Images and Design &copy; <a href="https://skillcrush.com/about" target="_blank">Skillcrush.com</a></h4>
+          </div><!-- end twocolumn p-right -->
+        </div><!--end box shadow-->
+      </div><!--end id portfolio-->
+    </section>
 
-      
-    </div><!--end class portfolio-->
-  </div><!--end box-shadow-->
+  <!--ABOUT--> 
+    <section id="about">
+      <div id="focus">
+         <h3>Hi, I'm Laura!</h3> 
+         <p>I leveraged my liberal arts degree into a fun IT career in technical and network support. My favorite part of tech support is website maintenance. It combines my passions for creative problem solving and helping others, and brings it to the world stage. That's why I've decided to focus my career on front-end development. My goal is to create accessible, responsive, <span>and</span> dynamic code.<br>
+         When I'm not coding, you can find me riding an electric scooter in the park or taking photos of my cats and chihuahua.
+         </p>
+      </div><!--end id focus-->
 
+      <div class="about">
+        <div class="rectangles">
+          <h2>Languages</h2>
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>Vanilla JavaScript</p>
+        </div><!--end class rectangles -->
 
-<div class="box-shadow">
-  <div class="p-title">
-    <h2>Fun with JavaScript!</h2>
-  </div><!--end id p-title-->
+        <div class="rectangles">
+          <h2>Developer Tools</h2>
+          <p>Chrome Developer Tools</p>
+          <p>Visual Studio Code</p>
+          <p>Git <span>and</span> Github</p>
+          <p><span>Google HTML/CSS Style Guide</span></p>
+        </div><!--end class rectangles-->
 
-  <div class="p-content">
-
-    <div class="twocolumn">
-      <div class="p-left"><img src="img/magic8ball.png" alt="Magic 8 Ball JavasScript">
-      </div>
-
-      <div class="p-left">
-        <h3>Magic 8 Ball</h3>
-        <p><a href="https://laurabavenell.com/magic8ball/" target="_blank">View Live Site</a></p>
-      </div>
-    </div><!-- end twocolumn-->
-
-    <div class="twocolumn">
-      <div class="p-right">
-        <h3>Key Features</h3>
-        <ul>
-          <li>Interactive game that can be added to an existing webpage or as a stand alone page.</li>
-          <li>Scalable to mobile, tablet, and desktop layouts.</li>
-        </ul>
-      </div>
-
-      <div class="p-right">
-        <h3>Process</h3> 
-        <ul>
-          <li>Coded in Visual Studio Code using HTML5, CSS3, JavaScript and jQuery.</li>
-          <li>Created version control using Git and Github.</li>
-        </ul>
-
-        <h4>Images and Design &copy; <a href="https://skillcrush.com/about" target="_blank">Skillcrush.com</a></h4>
-      </div>
-
-    </div><!--end twocolumn-->
-  </div> <!--end id portfolio-->
-  </div><!--end box-shadow-->
-</section>
-
-
-<!--ABOUT--> 
-<section id="about">
-
-  <div id="focus">
-    <h3>Hi, I'm Laura!</h3> 
-    <p>I leveraged my liberal arts degree into a fun IT career in technical and network support. My favorite part of tech support is website maintenance. It combines my passions for creative problem solving and helping others, and brings it to the world stage. That's why I've decided to focus my career on front-end development. My goal is to create accessible, responsive, <span>and</span> dynamic code.<br>
-
-   When I'm not coding, you can find me riding an electric scooter in the park or taking photos of my cats and chihuahua.
-    </p>
-  </div><!--end id focus-->
-
-  <div class="about">
-
-    <div class="rectangles">
-      <h2>Languages</h2>
-      <p>HTML5</p>
-      <p>CSS3</p>
-      <p>Vanilla JavaScript</p>
-     </div><!--end class rectangles -->
-
-    <div class="rectangles">
-     <h2>Developer Tools</h2>
-     <p>Chrome Developer Tools</p>
-     <p>Visual Studio Code</p>
-     <p>Git <span>and</span> Github</p>
-     <p><span>Google HTML/CSS Style Guide</span></p>
-    </div><!--end class rectangles-->
-
-    <div class="rectangles">
-      <h2>Design Tools</h2>
-      <p>Adobe XD</p>
-      <p>Adobe Photoshop</p>
-    </div> <!--end class rectangles -->
-
-  </div><!--end of class about-->
-
-
-
-</section><!--end id about-->
-
-
-
+        <div class="rectangles">
+          <h2>Design Tools</h2>
+          <p>Adobe XD</p>
+          <p>Adobe Photoshop</p>
+        </div> <!--end class rectangles -->
+      </div><!--end of class about-->
+    </section><!--end id about-->
 
 <!--CONTACT-->
   <section id="contact" class="navy">
   
     <div class="rectangles">
       <h2>Questions or Comments? Let's chat!</h2>
-    </div><!--end id questions-->
+    </div><!--end class rectangles-->
 
-        <div class="rectangles">
-          <h3>Send me an email</h3>
-          <a href="mailto:hi@laurabavenell.com"><i class="fas fa-envelope"></i></a>
-        </div><!--end id c1-->
+    <div class="rectangles">
+      <h3>Send me an email</h3>
+      <a href="mailto:hi@laurabavenell.com"><i class="fas fa-envelope"></i></a>
+    </div><!--end class rectangles-->
       
-      <div class="rectangles">
+    <div class="rectangles">
        <h3>Check out my profiles</h3>
 
        <div id="icons">
           <a href="https://www.linkedin.com/in/laurabavenell" target="_blank" ><i class="fab fa-linkedin fa"></i></a>
           <a href="https://github.com/lbavenell" target="_blank"><i class="fab fa-github-square"></i></a>
-        </div><!--end id icons-->
+       </div><!--end id icons-->
       
-      </div><!--id c2-->
+    </div><!--class rectangles-->
 
   </section><!--end id contact class navy-->
 
@@ -277,7 +220,6 @@ function myFunction() {
     nav.classList.remove("sticky");
   }
 };
-
 </script>
 
 </body>
