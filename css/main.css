@@ -271,6 +271,8 @@ a {
 /*--FOOTER--*/
 
 footer {
+  background-color: #001e29;
+  color: white;
   align-items: center;
   width: 100%;
 }
