@@ -424,10 +424,12 @@ section.hero {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
+  align-items: center;
 }
 
 .p-left {
   width: 40%;
+  align-items: center;
 }
 
 .p-right {
@@ -440,17 +442,12 @@ section.hero {
   margin-top: 15px;
 }
 
-.row-reverse {
-  display: flex;
-  flex-flow:row-reverse nowrap;
-}
   
 .twocolumn {
   flex-flow: column nowrap;
   margin: 15px;
   margin: .038em;
   width: 45%;
-  
 }
 
 ul, li {
@@ -528,5 +525,12 @@ footer .half-width {
   .rectangles {
     width: 17%;
   }
+
+
+/*-- min 1200 footer --*/
+
+footer .half-width {
+  width: 30%;
+}
 
 }/*--media query min 1200 ends--*/
