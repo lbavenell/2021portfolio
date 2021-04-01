@@ -412,9 +412,18 @@ section.hero {
 }
 
 /*-- min 768 portfolio --*/
+
+.box-shadow {
+  padding: 10px;
+  margin: 10px;
+  width: 93%;
+}
+
+
 .p-content {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-around;
 }
 
 .p-left {
@@ -423,6 +432,12 @@ section.hero {
 
 .p-right {
   width: 60%;
+}
+
+.left-align h3 {
+  line-height: 1em;
+  text-align: left;
+  margin-top: 15px;
 }
 
 .row-reverse {
@@ -434,15 +449,16 @@ section.hero {
   flex-flow: column nowrap;
   margin: 15px;
   margin: .038em;
-  width: 50%;
+  width: 45%;
+  
 }
 
 ul, li {
   text-align: left;
   line-height: 26.4px;
-  line-height: 1.65em;
+  line-height: 1.25em;
   font-weight: bold;
-  margin: 0px;
+  margin-bottom: 5px;
   padding: 0px;
 }
 
@@ -480,6 +496,9 @@ ul, li {
 footer {
   display: flex;
   flex-flow: row nowrap;
+}
+footer .half-width {
+  width: 40%;
 }
 
 }/*--media query min 769 ends--*/
