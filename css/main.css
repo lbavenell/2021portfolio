@@ -84,7 +84,7 @@ li::before {
   margin-left: -1.25em;
 }
 
-ul {
+ul, li {
   font-size: 18px;
   font-size: 1.125em;
   line-height: 24px;
