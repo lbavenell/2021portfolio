@@ -549,10 +549,6 @@ footer .third-width {
     width: 17%;
 }
 
-.a-content {
-  width: 65%;
-}
-
 #focus p {
   font-size: 20px;
   font-size: 1.25em;
@@ -561,7 +557,7 @@ footer .third-width {
 /*-- min 1200 footer --*/
 
 footer .third-width {
-  width: 15%;
+  width: 20%;
 
 }
 
