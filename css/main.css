@@ -178,7 +178,7 @@ nav, section {
 
 /*--HEADER--*/
 header {
-  height: 300px;
+  height: 900px;
 }
 
 header h2 {
@@ -299,8 +299,9 @@ header h2 {
 /*--FOOTER--*/
 
 footer {
-  background-color: #171717;
-  color: white;
+  background-color: white;
+  border-top: 4px solid #ffba1d;
+  color: #171717;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -350,9 +351,13 @@ h1 {
 
 /*-- min 501 portfolio --*/
 
+#portfolio {
+  height: 1430px;
+}
+
 .box-shadow {
-  margin: 15px;
-  padding: 30px;
+  margin: 15px 0px 15px 0px;
+  padding: 30px 0px 30px 0px;
   align-items: center;
   justify-content: center;
   width: 90%;
@@ -481,7 +486,6 @@ ul, li {
 
 /*-- min 768 about --*/
 
-
 #languages-tools {
   display: flex;
   flex-flow: row nowrap;
@@ -511,6 +515,8 @@ ul, li {
   justify-content: space-around;
   align-items: center;
   width: 85%;
+  margin-top: 32px;
+  margin-top: 2em;
 }
 
 /*--min 768 contact --*/
@@ -549,11 +555,13 @@ ul {
 
 #portfolio {
   align-items: stretch;
+  height: 725px;
 }
 
 .box-shadow {
   align-items: stretch;
   justify-content: stretch;
+  max-height: 660px;
 }
 
 .p-content {
@@ -577,12 +585,16 @@ ul {
 
 /*-- min 1200 about and contact --*/
 
+#about {
+  padding: 50px 0px 50px 0px;
+}
+
 #about img {
   max-width: 200px;
 }
 
 .a-content {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 .box-shadow {
@@ -590,7 +602,7 @@ ul {
 }
 
 .half {
-  width: 30%;
+  width: 32%;
 }
 
 .third-width {
@@ -600,6 +612,10 @@ ul {
 #focus p {
   font-size: 20px;
   font-size: 1.25em;
+}
+
+#languages-tools {
+  width: 45%;
 }
 
 /*-- min 1200 footer --*/
