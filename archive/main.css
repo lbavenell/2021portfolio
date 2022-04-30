@@ -57,8 +57,8 @@ h4 {
 
 header, main, footer, section {
   display: flex;
-  flex-flow: wrap;
-  justify-content: center;
+  flex-flow: column wrap;
+  justify-content: center;ƒ
   align-items: center;
   width: 100%;
   z-index: 10;
@@ -66,6 +66,10 @@ header, main, footer, section {
 
 img {
   max-width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
 p {
@@ -104,10 +108,17 @@ ul, li {
   background-color:#ffdc9c;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23ffffff' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   z-index: 1;
+  
   margin: auto;
 }
 
 /*-- Navigation --*/
+
+#navigation {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
 
 .content {
   width: 100%;
@@ -149,13 +160,15 @@ label {
   background: white no-repeat center top;
   border-bottom: 4px solid #ffba1d;
   z-index: 9999;
+
 }
 
 .nav {
   text-align: right;
   height: 60px;
   line-height: 70px;
-  float: right;
+  
+  width: 400px;
 } 
 
 nav, section {
@@ -231,6 +244,10 @@ header h2 {
   align-items: center;
   padding: 10px;
   padding: 1.625em;
+}
+
+.p-content {
+  margin-bottom: 40px;
 }
 
 /*--ABOUT--*/
@@ -468,6 +485,7 @@ section.hero {
   justify-content: center;
   margin: 15px;
   margin: .038em;
+  width: 45%;
 }
 
 ul, li {
@@ -533,40 +551,19 @@ footer .third-width {
 
 @media screen and (min-width: 1200px) {
 
-
-/*-- min 1200 base --*/
-h3 {
-  font-size: 20px;
-  font-size: 1.25em;
-}
-
-ul {
-  font-size: 16px;
-  font-size: 1em;
-}
-
 /*-- min 1200 portfolio --*/
 
-#portfolio {
-  align-items: stretch;
-}
-
 .box-shadow {
-  align-items: stretch;
-  justify-content: stretch;
+  width: 95%;
 }
 
 .p-content {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
 }
 
 .p-left {
-  width: 50%;
-}
-
-.p-right {
-  width: 90%;
+  width: 40%;
 }
 
 .fa-linkedin, .fa-github-square, .fa-envelope {
@@ -576,18 +573,6 @@ ul {
 }
 
 /*-- min 1200 about and contact --*/
-
-#about img {
-  max-width: 200px;
-}
-
-.a-content {
-  max-width: 60%;
-}
-
-.box-shadow {
-  width: 30%;
-}
 
 .half {
   width: 30%;
