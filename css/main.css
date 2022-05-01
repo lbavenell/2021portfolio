@@ -178,11 +178,16 @@ nav, section {
 
 /*--HEADER--*/
 header {
-  height: 900px;
+  height: 850px;
 }
 
 header h2 {
   margin: 12px 0px 6px 0px;
+}
+
+#home {
+  margin-top: 60px;
+  align-items: flex-start;
 }
 
 #name {
